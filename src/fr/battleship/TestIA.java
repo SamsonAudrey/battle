@@ -1,8 +1,8 @@
-package samson.audrey;
+package fr.battleship;
+import samson.audrey.*;
 
 import java.util.Scanner;
-import samson.audrey.Player;
-import samson.audrey.Game;
+
 
 public class TestIA {
 

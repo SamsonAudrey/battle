@@ -12,7 +12,7 @@ public class FichierTxt {
 	        try {
 	            // Creation du fichier
 	            fichier .createNewFile();
-	            // creation d'un writer (un ecrivain)
+	            // creation d'un writer (un écrivain)
 	            final FileWriter writer = new FileWriter(fichier);
 	            try {
 	                writer.write(message);
