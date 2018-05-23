@@ -7,7 +7,7 @@ import samson.audrey.Coord;
 import samson.audrey.Player;
 import samson.audrey.Ship;
 
-public class Human extends Player implements IPlayAlone{
+public class Human extends Player{
 
 
 	public Human(int number, int length) {
