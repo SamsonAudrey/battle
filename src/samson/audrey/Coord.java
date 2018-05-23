@@ -44,14 +44,15 @@ public class Coord {
 			char re=convertToArrayChar(letterOrNumber)[0];
 			char ress=convertToArrayChar(letterOrNumber)[1];
 			res=re+ress;*/
-			System.out.println("NOT POSIBLE");
+			//System.out.println("NOT POSIBLE");
+			char erreur='e';
+			return erreur;
 		}
 		else{
 			char res=convertToArrayChar(letterOrNumber)[0];
 			return res;
 		}
-		char erreur='e';
-		return erreur;
+		
 	}
 
 	public boolean isFree() {

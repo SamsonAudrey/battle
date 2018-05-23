@@ -83,7 +83,14 @@ public class Ship {
 		}
 		else {
 			char start=Coord.getFirstChar(startCoord.getNumber());
-			char end=Coord.getFirstChar(endCoord.getNumber());
+			char end;
+			if(endCoord.getNumber().length()==2){
+				end='9';
+				res+=1;
+			}
+			else{
+				end=Coord.getFirstChar(endCoord.getNumber());
+			}
 			for (char cursor=start;cursor<=end;cursor++){
 				res+=1;
 			}
